@@ -16,10 +16,10 @@ plt.ylabel('Kubik')
 # Legende anzeigen
 plt.legend()
 
+plt.savefig('dia.png')
+
 # Diagramm anzeigen
 plt.show()
-
-plt.savefig('dia.png')
 
 nums = pd.DataFrame(y)
 
